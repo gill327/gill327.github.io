@@ -3,13 +3,17 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  position: fixed;
+  bottom: 55vh;
+  width: 30vh;
+  height: 40vh;
   pointer-events: none;
+  z-index: 1;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 2s linear alternate;
   }
 }
 
@@ -33,6 +37,21 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(15deg);
   }
+}
+
+.water {
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  bottom: 50vh;
+  width: 70vh;
+  opacity: .75;
+  z-index: 2;
+}
+
+.floating {
+  z-index: 3;
 }
