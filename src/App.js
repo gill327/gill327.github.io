@@ -1,4 +1,4 @@
-import logo from './goose.png';
+import logo from './goose.svg';
 import './App.css';
 
 function App() {
