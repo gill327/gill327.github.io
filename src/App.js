@@ -10,7 +10,7 @@ function App() {
         <img src={water} className="water left" alt="There's water here, trust me." />
         <p className="floating">
           gill327's site is currently under construction<br/>
-          please check back soon.
+          In the meantime, check out his <a href="https://github.com/gill327">github</a> for current and future projects.
         </p>
       </header>
     </div>
