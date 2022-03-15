@@ -9,6 +9,12 @@
   pointer-events: none;
 }
 
+.Nav-logo {
+  width: 7vh;
+  height: 7vh;
+  padding-left: 3vh;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 4s;
@@ -37,4 +43,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav-link {
+  color:rgb(255, 255, 255) !important;
+}
+
+.active {
+  color:rgb(187, 241, 255) !important;
 }
