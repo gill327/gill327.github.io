@@ -10,9 +10,13 @@
 }
 
 .Nav-logo {
-  width: 7vh;
-  height: 7vh;
+  width: 6vh;
+  height: 6vh;
   padding-left: 3vh;
+}
+
+.Nav-offcanvas {
+  background-color: rgb(25, 24, 24);
 }
 
 @media (prefers-reduced-motion: no-preference) {
